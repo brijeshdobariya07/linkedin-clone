@@ -1,10 +1,20 @@
 import React from "react";
 import "./App.css";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello world</h1>
+      {/* Header */}
+      <Header />
+      {/* App Body */}
+      <div className="app__body">
+        <Sidebar />
+      </div>
+      {/* Sidebar */}
+      {/* Feed */}
+      {/* Widgets */}
     </div>
   );
 }
